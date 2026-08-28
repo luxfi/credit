@@ -1,0 +1,6 @@
+allowBuilds:
+  sharp: set this to true or false
+minimumReleaseAgeExclude:
+  - '@hanzo/commerce@7.7.2'
+  - '@hanzo/ui@8.25.0'
+  - '@luxfi/ui@5.5.6'
