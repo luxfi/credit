@@ -1,7 +1,8 @@
+'use client'
 import React, { type PropsWithChildren } from 'react'
 
-import { Footer } from '@luxfi/ui'
-import { cn } from '@hanzo/ui/util'
+import Footer from '@luxfi/ui/footer'
+import { cn } from '@hanzo/ui'
 import { ApplyTypography } from '@hanzo/ui/primitives'
 
 import siteDef from '@/site-def'

@@ -1,4 +1,4 @@
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { ImageBlockComponent } from '@hanzo/ui/blocks'
 
 import type { CardMaterial } from '@luxfi/data/commerce/types'

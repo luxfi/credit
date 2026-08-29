@@ -15,7 +15,8 @@ export async function GET(request: NextRequest) {
 
   // Add the auth token to the response cookies
   if (!!token) {
-    cookies().set({
+    const jar = await cookies()
+    jar.set({
       name: 'auth-token',
       value: token,
       httpOnly: false,

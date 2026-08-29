@@ -1,6 +1,6 @@
 'use client'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 // :aa TODO: move to hanzo/ui/primitives
 const SplinePlayer: React.FC<{

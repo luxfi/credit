@@ -1,7 +1,8 @@
+'use client'
 import React, { type PropsWithChildren } from 'react'
 
 import { ApplyTypography } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { formatCurrencyValue } from '@hanzo/commerce'
 
 import type { Card } from '@luxfi/data/commerce/types'

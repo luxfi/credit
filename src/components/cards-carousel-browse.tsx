@@ -10,7 +10,7 @@ import { AddToCartWidget, useCommerce } from '@hanzo/commerce'
 
 import { ImageBlockComponent, type ImageBlock } from '@hanzo/ui/blocks'
 import { ApplyTypography, Carousel, CarouselContent, CarouselItem, type CarouselApi } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import cards from '@/content/cards'
 

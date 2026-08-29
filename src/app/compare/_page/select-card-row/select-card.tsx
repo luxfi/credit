@@ -1,7 +1,7 @@
 import { Plus } from 'lucide-react'
 
 import { ImageBlockComponent } from '@hanzo/ui/blocks'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { Button, Popover, PopoverContent, PopoverTrigger } from '@hanzo/ui/primitives'
 
 import type { Card, CardWithSelectedMaterial } from '@luxfi/data/commerce/types'
@@ -59,7 +59,7 @@ const SelectCard: React.FC<{
           </h4>
         </div>
       </PopoverTrigger>
-      <PopoverContent collisionPadding={16} >
+      <PopoverContent >
         <div className='flex flex-col gap-6'>
           <div className='space-y-2'>
             <h4 className='font-medium leading-none'>Lux cards</h4>

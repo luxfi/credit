@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 import { Button, Separator } from '@hanzo/ui/primitives'
-import { Main } from '@luxfi/ui'
+import Main from '@luxfi/ui/main'
 import benefits from "@/content/cards/benefits"
 import Link from "next/link"
 

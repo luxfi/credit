@@ -1,7 +1,7 @@
-import type { Icon } from '@hanzo/ui/types'
+import type React from 'react'
 
 interface Milestone {
-  icon: Icon
+  icon: React.ReactNode
   preheading: string
   heading: string
   byline: string

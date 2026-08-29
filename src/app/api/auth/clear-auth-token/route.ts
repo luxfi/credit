@@ -11,7 +11,8 @@ export async function GET(request: NextRequest) {
   response.headers.set('Content-Length', transparentGIF.length.toString())
   response.headers.set('Cache-Control', 'no-store, max-age=0')
 
-  cookies().delete('auth-token')
+  const jar = await cookies()
+  jar.delete('auth-token')
 
   return response
 }

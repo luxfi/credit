@@ -1,7 +1,9 @@
+'use client'
 import React from 'react'
 
-import { cn } from '@hanzo/ui/util'
-import { CheckoutPanel, Main } from '@luxfi/ui'
+import { cn } from '@hanzo/ui'
+import CheckoutPanel from '@luxfi/ui/commerce/checkout-panel'
+import Main from '@luxfi/ui/main'
 
 const Page: React.FC = () => (
   <Main id='CHECKOUT_MAIN' className={cn(

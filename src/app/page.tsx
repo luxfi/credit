@@ -1,7 +1,8 @@
 import React  from 'react'
 
 import { ScreenfulBlockComponent as Screenful } from '@hanzo/ui/blocks'
-import { DrawerMargin, Header } from '@luxfi/ui'
+import DrawerMargin from '@luxfi/ui/drawer-margin'
+import Header from '@luxfi/ui/header'
 
 import { desktopTiles, mobileTiles}  from '@/content'
 import FooterSlide from '@/components/footer-slide'
@@ -27,7 +28,7 @@ const Page = ({ searchParams }: Props ) => {
         snapTile
         key={`section-${index}`}
         bottom={<DrawerMargin clx='grow-0 shrink-0'/>}
-        contentClx='max-w-screen-2xl'
+        contentClassName='max-w-screen-2xl'
       />
     ))}
     <FooterSlide agent={agent} />

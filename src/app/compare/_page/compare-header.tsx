@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import { type CardWithSelectedMaterial } from '@luxfi/data/commerce/types'
 import SelectCardRow from './select-card-row'

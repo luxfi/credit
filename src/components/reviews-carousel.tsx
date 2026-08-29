@@ -9,9 +9,8 @@ import {
   CarouselItem,
   type CarouselApi
 } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
-import { EmblaAutoplay } from '@luxfi/ui'
 
 import type { Review } from '@/types'
 
@@ -60,9 +59,8 @@ const ReviewsCarousel: React.FC<{
     <div className='w-full flex flex-col gap-6 sm:gap-10 items-center overflow-hidden'>
       <Carousel
         setApi={setApi}
-          // safe to pass in this way, since Shadcn and Embla do that.
-        plugins={autostart ? [EmblaAutoplay({ delay: 5000, stopOnInteraction: true })] : []}
-        options={{ align: 'start', loop: true }}
+          // safe to pass in this way, since Shadcn and Embla do that.)] : []}
+        options={{ align: 'start', loop: true, autoplay: autostart ? 5000 : undefined }}
         className='w-full mx-auto max-w-[40rem]'
         onCarouselSelect={onSelect}
       >

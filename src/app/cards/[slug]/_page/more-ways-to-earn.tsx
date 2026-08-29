@@ -1,5 +1,5 @@
 import { ApplyTypography, Card as CardComponent } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 const MoreWaysToEarn: React.FC<{
   rewards: {

@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ChevronLeft } from 'lucide-react'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import {
   Accordion,
   AccordionContent,
@@ -17,7 +17,7 @@ import {
 import { AddToCartWidget, formatCurrencyValue } from '@hanzo/commerce'
 import type { LineItem } from '@hanzo/commerce/types'
 
-import { Main } from '@luxfi/ui'
+import Main from '@luxfi/ui/main'
 import type { Card, CardMaterial } from '@luxfi/data/commerce/types'
 
 import SplinePlayer from '@/components/spline-player'
@@ -92,7 +92,7 @@ const MobileViewCardDetails: React.FC<{
         <Accordion type='multiple' className='w-full'>
           {card.cardDetails.intro.map(({title, description}, i) => (
             <AccordionItem key={i} value={title} className='border-none bg-level-1 my-2 rounded'>
-              <AccordionTrigger showChevron className='!no-underline px-3 !py-1 h-14'>
+              <AccordionTrigger className='!no-underline px-3 !py-1 h-14'>
                 <h5 className='text-sm text-left'>{title}</h5>
               </AccordionTrigger>
               <AccordionContent className='px-3 pb-3'>{description}</AccordionContent>

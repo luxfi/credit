@@ -1,3 +1,4 @@
+'use client'
 import '@/blocks/registerComponents'
 
 import DesktopAllCards from './_page/desktop'

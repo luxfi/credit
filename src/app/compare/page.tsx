@@ -1,6 +1,7 @@
+'use client'
 import React  from 'react'
 
-import { Main } from '@luxfi/ui'
+import Main from '@luxfi/ui/main'
 
 import '@/blocks/registerComponents'
 

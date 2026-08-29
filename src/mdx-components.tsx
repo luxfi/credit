@@ -1,6 +1,6 @@
 import type { MDXComponents } from 'mdx/types'
 import { MDXLink } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
  
 // This file allows you to provide custom React components
 // to be used in MDX files. You can import and use any

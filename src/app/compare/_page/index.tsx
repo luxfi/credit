@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 
 import { ApplyTypography } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import type { CardWithSelectedMaterial } from '@luxfi/data/commerce/types'
 

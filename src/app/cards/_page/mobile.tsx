@@ -1,7 +1,8 @@
+'use client'
 import { Fragment } from 'react'
 import Link from 'next/link'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { ApplyTypography, Separator } from '@hanzo/ui/primitives'
 
 import SplinePlayer from '@/components/spline-player'

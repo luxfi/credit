@@ -19,7 +19,7 @@ import {
 } from '@hanzo/commerce'
 import type { LineItem } from '@hanzo/commerce/types'
 import { ImageBlockComponent } from '@hanzo/ui/blocks'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import type { Card, CardMaterial } from '@luxfi/data/commerce/types'
 

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import type { ImageDef } from '@hanzo/ui/types'
 import { 
   ApplyTypography, 

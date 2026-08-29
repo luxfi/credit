@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { ApplyTypography } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 const RowHeading: React.FC<{
   title: string,

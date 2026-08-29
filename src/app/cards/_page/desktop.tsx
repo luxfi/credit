@@ -1,5 +1,5 @@
-import { cn } from '@hanzo/ui/util'
-import { Main } from '@luxfi/ui'
+import { cn } from '@hanzo/ui'
+import Main from '@luxfi/ui/main'
 
 import cards from '@/content/cards'
 import CardPreview from './desktop-card-preview'

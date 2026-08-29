@@ -1,7 +1,8 @@
+const withGui = require('@hanzo/ui/next')
+
 const withMDX = require('@next/mdx')()
 const svgrPluginConfig = require('./next-conf/svgr.next.config')
 const watchPluginConfig = require('./next-conf/watch.next.config')
-
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -27,18 +28,13 @@ const nextConfig = {
  },
     // https://stackoverflow.com/questions/72621835/how-to-fix-you-may-need-an-appropriate-loader-to-handle-this-file-type-current
   transpilePackages: [
-    '@hanzo/ui', 
-    '@hanzo/auth', 
-    '@hanzo/commerce', 
+    '@hanzo/auth',
+    '@hanzo/commerce',
+    '@luxfi/data',
     '@luxfi/ui',
-    '@luxfi/data'
+    '@luxfi/menu-icons',
   ],
   productionBrowserSourceMaps: true,
-  webpack: (config) => {
-    let conf = svgrPluginConfig(config)
-    //conf =  watchPluginConfig(conf) 
-    return conf
-  }
 }
 
-module.exports = withMDX(nextConfig)
+module.exports = withGui(withMDX(nextConfig), __dirname)

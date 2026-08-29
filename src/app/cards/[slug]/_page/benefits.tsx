@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import {
   Accordion,
   AccordionContent,
@@ -45,7 +45,6 @@ const BenefitCard: React.FC<{
         <Accordion type='single' collapsible className='w-full' value={open ? title : ''}>
           <AccordionItem value={title} className='border-none'>
             <AccordionTrigger
-              showChevron
               className='!no-underline px-3 h-14'
               onClick={() => setOpen(!open)}
             >

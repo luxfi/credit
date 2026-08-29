@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 import { Button } from '@hanzo/ui/primitives'
 import { ImageBlockComponent, type ImageBlock } from '@hanzo/ui/blocks'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import PseudoMain from '@/components/pseudo-main'
 

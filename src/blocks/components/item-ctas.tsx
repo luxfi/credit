@@ -1,10 +1,11 @@
+'use client'
 import React  from 'react'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { LinkElement, buttonVariants } from '@hanzo/ui/primitives'
 import { type Block} from '@hanzo/ui/blocks'
 
-import { BuyButton } from '@luxfi/ui'
+import BuyButton from '@luxfi/ui/commerce/buy-button'
 
 import type ItemCTAsBlock from '@/blocks/def/item-ctas'
 
@@ -38,8 +39,7 @@ const ItemCTAsBlockComponent: React.FC<{
         className={cn(
           buttonVariants({
             variant: ctas.skuPath ? 'outline' : 'primary',
-            size: 'default',
-            rounded: 'md' }),
+            size: 'default' }),
           '!w-full max-w-56'
         )}
       />

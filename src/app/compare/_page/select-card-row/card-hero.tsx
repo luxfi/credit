@@ -1,9 +1,10 @@
+'use client'
 import React, { useEffect, useState } from 'react'
 import { X } from 'lucide-react'
 
 import { ImageBlockComponent } from '@hanzo/ui/blocks'
 import { ApplyTypography, Button } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import { AddToCartWidget, formatCurrencyValue, useCommerce } from '@hanzo/commerce'
 import type { LineItem } from '@hanzo/commerce/types'

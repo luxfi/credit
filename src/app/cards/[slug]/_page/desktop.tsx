@@ -4,11 +4,11 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { ChevronLeft } from 'lucide-react'
 
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 import { ApplyTypography } from '@hanzo/ui/primitives'
 import { AddToCartWidget, formatCurrencyValue } from '@hanzo/commerce'
 import type { LineItem } from '@hanzo/commerce/types'
-import { Main } from '@luxfi/ui'
+import Main from '@luxfi/ui/main'
 
 import type { Card, CardMaterial } from '@luxfi/data/commerce/types'
 

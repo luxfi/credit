@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation'
 
 import { ApplyTypography, Button } from '@hanzo/ui/primitives'
-import { cn } from '@hanzo/ui/util'
+import { cn } from '@hanzo/ui'
 
 import type { Card, CardMaterial } from '@luxfi/data/commerce/types'
 
