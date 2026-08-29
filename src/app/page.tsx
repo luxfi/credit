@@ -1,3 +1,4 @@
+'use client'
 import React  from 'react'
 
 import { ScreenfulBlockComponent as Screenful } from '@hanzo/ui/blocks'

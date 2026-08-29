@@ -1,7 +1,6 @@
 const withGui = require('@hanzo/ui/next')
 
 const withMDX = require('@next/mdx')()
-const svgrPluginConfig = require('./next-conf/svgr.next.config')
 const watchPluginConfig = require('./next-conf/watch.next.config')
 
 /** @type {import('next').NextConfig} */
