@@ -1,0 +1,44 @@
+/* The Lux faces, served from /fonts. */
+@font-face {
+  font-family: 'Lux Sans';
+  src: url('/fonts/LuxSans-Book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lux Sans';
+  src: url('/fonts/LuxSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lux Display';
+  src: url('/fonts/LuxDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lux Display';
+  src: url('/fonts/LuxDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-lux-sans: 'Lux Sans';
+  --font-lux-display: 'Lux Display';
+}
+
+body {
+  font-family: var(--font-lux-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* The wordmark ships filled white; in the header it takes the ground's contrast. */
+header svg g[fill='#ffffff'],
+header svg g[fill='#FFFFFF'] {
+  fill: currentColor;
+}

@@ -11,6 +11,7 @@
     "tc": "tsc --noEmit"
   },
   "dependencies": {
+    "@hanzo/ai": "catalog:",
     "@hanzo/auth": "catalog:",
     "@hanzo/commerce": "catalog:",
     "@hanzo/ui": "catalog:",
